@@ -1395,6 +1395,10 @@ table {
         height: calc(350px + 280 * ((100vw - 320px) / 880)); } }
 
 @media (max-width: 490px) {
+    .how_to__suzirja text {
+      font-size: 30px; }
+    .how_to__suzirja g:hover text {
+      font-size: 36px; }
   .cont_garant__guarantees-img {
     width: 100%;
     margin: 0; }
@@ -1477,18 +1481,16 @@ table {
   .how_to__suzirja {
     text-align: left; }
     .how_to__suzirja svg {
-      width: 400px;
-      height: 400px; } }
+      width: 900px;
+      height: 900px; } }
     @media (max-width: 380px) and (max-width: 1200px) {
       .how_to__suzirja svg {
-        width: calc(300px + 100 * ((100vw - 320px) / 880)); } }
+        width: calc(300px + 600 * ((100vw - 320px) / 880)); } }
     @media (max-width: 380px) and (max-width: 1200px) {
       .how_to__suzirja svg {
-        height: calc(300px + 100 * ((100vw - 320px) / 880)); } }
+        height: calc(300px + 600 * ((100vw - 320px) / 880)); } }
 
 @media (max-width: 380px) {
-    .how_to__suzirja text {
-      font-size: 26px; }
     .how_to__suzirja g:hover text {
       font-size: 36px; }
   .cont_garant__contacts-text {
