@@ -257,7 +257,8 @@ table {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    min-height: 100vh; }
+    height: 100vh;
+    max-height: 1000px; }
   .header__top {
     padding: 50px 0px 30px;
     display: -webkit-box;
@@ -554,7 +555,8 @@ table {
 
 .zabron {
   background-image: url(../images/zabron_bg.jpg);
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 1000px;
   background-position: center; }
   .zabron__inner {
     display: -webkit-box;
