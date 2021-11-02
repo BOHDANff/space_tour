@@ -1368,7 +1368,7 @@ table {
       margin-top: 15%;
       margin-bottom: 20%; }
   .zabron {
-    background-position: center; }
+    background-position: -800px 0px; }
     .zabron__inner {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
