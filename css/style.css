@@ -523,7 +523,7 @@ table {
   .how_to__suzirja {
     text-align: center; }
     .how_to__suzirja text {
-      font-size: 18px;
+      font-size: 24px;
       -webkit-transition: all 0.5s ease 0s;
       -moz-transition: all 0.5s ease 0s;
       -ms-transition: all 0.5s ease 0s;
@@ -987,7 +987,8 @@ table {
     -ms-flex-direction: column;
     flex-direction: column;
     margin-right: 50px;
-    min-height: 650px; }
+    min-height: 650px;
+    padding-bottom: 20px; }
     .cont_garant__contacts-text {
       margin-bottom: auto; }
   .cont_garant__form {
@@ -1262,10 +1263,20 @@ table {
       .how_to__suzirja svg {
         height: calc(350px + 650 * ((100vw - 320px) / 880)); } }
 
+@media (max-width: 720px) {
+    .how_to__suzirja text {
+      font-size: 24px; }
+    .how_to__suzirja g:hover text {
+      font-size: 34px; } }
+
 @media (max-width: 670px) {
   .cont_garant__contacts {
     width: 0;
-    min-width: 100%; } }
+    min-width: 100%; }
+  .how_to__suzirja text {
+    font-size: 30px; }
+  .how_to__suzirja g:hover text {
+    font-size: 36px; } }
 
 @media (max-width: 640px) {
   .header__title {
@@ -1286,7 +1297,12 @@ table {
   .header__cont {
     padding-top: 5%; }
   .slider__wrap {
-    border: none; } }
+    border: none;
+    padding: 0; }
+  .how_to__suzirja text {
+    font-size: 26px; }
+  .how_to__suzirja g:hover text {
+    font-size: 36px; } }
 
 @media (max-width: 580px) {
   .title {
@@ -1341,7 +1357,14 @@ table {
   .addit_services__btns-box {
     min-width: 100%; }
   .addit_services__btn {
-    width: 100%; } }
+    width: 100%; }
+  .cont_garant__title {
+    padding: 70px 0 45px;
+      padding-margin-bottom: 30px; }
+  .how_to__suzirja text {
+    font-size: 30px; }
+  .how_to__suzirja g:hover text {
+    font-size: 36px; } }
 
 @media (max-width: 490px) {
   .header__title {
@@ -1407,7 +1430,7 @@ table {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding: 30px 0px 0px 0px; }
+    padding: 100px 0px 0px 0px; }
   .footer__item {
     min-width: 100%;
     min-height: 200px;
