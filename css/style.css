@@ -257,8 +257,7 @@ table {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    height: 100vh;
-    max-height: 1200px; }
+    min-height: 100vh; }
   .header__top {
     padding: 50px 0px 30px;
     display: -webkit-box;
